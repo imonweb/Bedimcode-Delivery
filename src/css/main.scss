@@ -1,5 +1,20 @@
+/*  Import partial files */
 @import 'config/variables';
+@import 'base/base';
 @import 'base/global';
+@import 'theme/theme';
 @import 'config/mixins';
-@import 'components/menu';
-@import 'layout/responsive';
+// @import 'components/menu';
+@import 'layout/layout';
+@import 'components/header';
+@import 'components/home';
+@import 'components/buttons';
+@import 'components/about';
+@import 'components/security';
+@import 'components/services';
+@import 'components/app';
+@import 'components/contact';
+@import 'components/footer';
+@import 'components/scroll';
+@import 'components/mediaqueries';
+ 
