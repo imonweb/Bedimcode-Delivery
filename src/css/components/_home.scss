@@ -1,2 +1,17 @@
 /*=============== HOME ===============*/
- 
+.home {
+
+  &__container {
+    row-gap: 3rem;
+  }
+
+  &__titlle {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--mb-0-75);
+  }
+
+  &__description {
+    margin-bottom: var(--mb-2);
+  }
+} /*  home */
